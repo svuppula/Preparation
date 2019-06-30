@@ -11,7 +11,7 @@ import java.util.TreeSet;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Prep implements Runnable {
+public class JavaPrep implements Runnable {
 	
 	public void unicode() {
 		//\u000d System.out.println("something strange");
@@ -150,7 +150,7 @@ public class Prep implements Runnable {
 	}	
 	
 	public static void main(String[] args) {
-	Prep iW = new Prep();
+	JavaPrep iW = new JavaPrep();
 	iW.unicode();
 	iW.string_reference();
 	iW.integer_referene();
